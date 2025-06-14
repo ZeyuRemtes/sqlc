@@ -5,7 +5,6 @@ import (
 
 	"github.com/ducesoft/sqlc/internal/config"
 	"github.com/ducesoft/sqlc/internal/engine/dolphin"
-	"github.com/ducesoft/sqlc/internal/engine/postgresql"
 	"github.com/ducesoft/sqlc/internal/engine/sqlite"
 	"github.com/ducesoft/sqlc/internal/opts"
 	"github.com/ducesoft/sqlc/internal/sql/catalog"
@@ -29,8 +28,8 @@ func NewCompiler(conf config.SQL, combo config.CombinedSettings) *Compiler {
 		c.parser = dolphin.NewParser()
 		c.catalog = dolphin.NewCatalog()
 	case config.EnginePostgreSQL:
-		c.parser = postgresql.NewParser()
-		c.catalog = postgresql.NewCatalog()
+		//c.parser = postgresql.NewParser()
+		//c.catalog = postgresql.NewCatalog()
 	default:
 		panic(fmt.Sprintf("unknown engine: %s", conf.Engine))
 	}
