@@ -3,8 +3,8 @@ package rewrite
 import (
 	"fmt"
 
-	"github.com/ducesoft/sqlc/internal/sql/ast"
-	"github.com/ducesoft/sqlc/internal/sql/astutils"
+	"github.com/ZeyuRemtes/sqlc/internal/sql/ast"
+	"github.com/ZeyuRemtes/sqlc/internal/sql/astutils"
 )
 
 // Embed is an instance of `sqlc.embed(param)`

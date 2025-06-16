@@ -11,8 +11,8 @@ import (
 	driver "github.com/pingcap/tidb/parser/test_driver"
 	"github.com/pingcap/tidb/parser/types"
 
-	"github.com/ducesoft/sqlc/internal/debug"
-	"github.com/ducesoft/sqlc/internal/sql/ast"
+	"github.com/ZeyuRemtes/sqlc/internal/debug"
+	"github.com/ZeyuRemtes/sqlc/internal/sql/ast"
 )
 
 type cc struct {

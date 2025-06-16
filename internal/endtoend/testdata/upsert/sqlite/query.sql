@@ -1,4 +1,4 @@
--- https://github.com/ducesoft/sqlc/issues/1728
+-- https://github.com/ZeyuRemtes/sqlc/issues/1728
 
 CREATE TABLE IF NOT EXISTS locations (
     id              INTEGER PRIMARY KEY,

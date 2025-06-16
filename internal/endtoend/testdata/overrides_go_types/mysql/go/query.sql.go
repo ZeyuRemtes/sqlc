@@ -9,7 +9,7 @@ import (
 	"context"
 	"strings"
 
-	"github.com/ducesoft/sqlc-testdata/pkg"
+	"github.com/ZeyuRemtes/sqlc-testdata/pkg"
 )
 
 const testIN = `-- name: TestIN :many

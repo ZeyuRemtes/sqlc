@@ -13,8 +13,8 @@ import (
 	"github.com/google/go-cmp/cmp"
 	"github.com/google/go-cmp/cmp/cmpopts"
 
-	"github.com/ducesoft/sqlc/internal/cmd"
-	"github.com/ducesoft/sqlc/internal/opts"
+	"github.com/ZeyuRemtes/sqlc/internal/cmd"
+	"github.com/ZeyuRemtes/sqlc/internal/opts"
 )
 
 func TestExamples(t *testing.T) {

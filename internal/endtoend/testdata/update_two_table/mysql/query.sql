@@ -1,4 +1,4 @@
--- https://github.com/ducesoft/sqlc/issues/1590
+-- https://github.com/ZeyuRemtes/sqlc/issues/1590
 CREATE TABLE authors (
   name text NOT NULL,
   deleted_at datetime NOT NULL,

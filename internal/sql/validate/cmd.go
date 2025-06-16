@@ -4,8 +4,8 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/ducesoft/sqlc/internal/metadata"
-	"github.com/ducesoft/sqlc/internal/sql/ast"
+	"github.com/ZeyuRemtes/sqlc/internal/metadata"
+	"github.com/ZeyuRemtes/sqlc/internal/sql/ast"
 )
 
 func validateCopyfrom(n ast.Node) error {

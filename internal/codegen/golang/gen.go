@@ -11,9 +11,9 @@ import (
 	"strings"
 	"text/template"
 
-	"github.com/ducesoft/sqlc/internal/codegen/sdk"
-	"github.com/ducesoft/sqlc/internal/metadata"
-	"github.com/ducesoft/sqlc/internal/plugin"
+	"github.com/ZeyuRemtes/sqlc/internal/codegen/sdk"
+	"github.com/ZeyuRemtes/sqlc/internal/metadata"
+	"github.com/ZeyuRemtes/sqlc/internal/plugin"
 )
 
 type tmplCtx struct {

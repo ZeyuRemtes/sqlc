@@ -1,5 +1,5 @@
 version: v1
-name: github.com/ducesoft/sqlc
+name: github.com/ZeyuRemtes/sqlc
 breaking:
 lint:
   use:

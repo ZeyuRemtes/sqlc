@@ -11,8 +11,8 @@ import (
 	"path/filepath"
 	"testing"
 
-	"github.com/ducesoft/sqlc/internal/cmd"
-	"github.com/ducesoft/sqlc/internal/sqltest"
+	"github.com/ZeyuRemtes/sqlc/internal/cmd"
+	"github.com/ZeyuRemtes/sqlc/internal/sqltest"
 )
 
 func findSchema(t *testing.T, path string) (string, bool) {

@@ -4,10 +4,10 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/ducesoft/sqlc/internal/config"
-	"github.com/ducesoft/sqlc/internal/source"
-	"github.com/ducesoft/sqlc/internal/sql/ast"
-	"github.com/ducesoft/sqlc/internal/sql/astutils"
+	"github.com/ZeyuRemtes/sqlc/internal/config"
+	"github.com/ZeyuRemtes/sqlc/internal/source"
+	"github.com/ZeyuRemtes/sqlc/internal/sql/ast"
+	"github.com/ZeyuRemtes/sqlc/internal/sql/astutils"
 )
 
 func (c *Compiler) expand(qc *QueryCatalog, raw *ast.RawStmt) ([]source.Edit, error) {

@@ -8,13 +8,13 @@ import (
 	"path/filepath"
 	"strings"
 
-	"github.com/ducesoft/sqlc/internal/metadata"
-	"github.com/ducesoft/sqlc/internal/migrations"
-	"github.com/ducesoft/sqlc/internal/multierr"
-	"github.com/ducesoft/sqlc/internal/opts"
-	"github.com/ducesoft/sqlc/internal/sql/ast"
-	"github.com/ducesoft/sqlc/internal/sql/sqlerr"
-	"github.com/ducesoft/sqlc/internal/sql/sqlpath"
+	"github.com/ZeyuRemtes/sqlc/internal/metadata"
+	"github.com/ZeyuRemtes/sqlc/internal/migrations"
+	"github.com/ZeyuRemtes/sqlc/internal/multierr"
+	"github.com/ZeyuRemtes/sqlc/internal/opts"
+	"github.com/ZeyuRemtes/sqlc/internal/sql/ast"
+	"github.com/ZeyuRemtes/sqlc/internal/sql/sqlerr"
+	"github.com/ZeyuRemtes/sqlc/internal/sql/sqlpath"
 )
 
 // TODO: Rename this interface Engine

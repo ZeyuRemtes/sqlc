@@ -3,8 +3,8 @@ package compiler
 import (
 	"fmt"
 
-	"github.com/ducesoft/sqlc/internal/sql/ast"
-	"github.com/ducesoft/sqlc/internal/sql/astutils"
+	"github.com/ZeyuRemtes/sqlc/internal/sql/ast"
+	"github.com/ZeyuRemtes/sqlc/internal/sql/astutils"
 )
 
 func findParameters(root ast.Node) ([]paramRef, error) {

@@ -1,8 +1,8 @@
 package catalog
 
 import (
-	"github.com/ducesoft/sqlc/internal/sql/ast"
-	"github.com/ducesoft/sqlc/internal/sql/sqlerr"
+	"github.com/ZeyuRemtes/sqlc/internal/sql/ast"
+	"github.com/ZeyuRemtes/sqlc/internal/sql/sqlerr"
 )
 
 func (c *Catalog) commentOnColumn(stmt *ast.CommentOnColumnStmt) error {

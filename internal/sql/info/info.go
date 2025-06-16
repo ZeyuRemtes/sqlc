@@ -1,7 +1,7 @@
 package info
 
 import (
-	"github.com/ducesoft/sqlc/internal/sql/catalog"
+	"github.com/ZeyuRemtes/sqlc/internal/sql/catalog"
 )
 
 // Provide a read-only view into the catalog

@@ -49,6 +49,6 @@ proto:
 
 remote-proto:
 	protoc \
-		--go_out=. --go_opt="Minternal/remote/gen.proto=github.com/ducesoft/sqlc/internal/remote" --go_opt=module=github.com/ducesoft/sqlc \
-        --go-grpc_out=. --go-grpc_opt="Minternal/remote/gen.proto=github.com/ducesoft/sqlc/internal/remote" --go-grpc_opt=module=github.com/ducesoft/sqlc \
+		--go_out=. --go_opt="Minternal/remote/gen.proto=github.com/ZeyuRemtes/sqlc/internal/remote" --go_opt=module=github.com/ZeyuRemtes/sqlc \
+        --go-grpc_out=. --go-grpc_opt="Minternal/remote/gen.proto=github.com/ZeyuRemtes/sqlc/internal/remote" --go-grpc_opt=module=github.com/ZeyuRemtes/sqlc \
         internal/remote/gen.proto

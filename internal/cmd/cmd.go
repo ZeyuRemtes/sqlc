@@ -17,11 +17,11 @@ import (
 	"github.com/spf13/pflag"
 	"gopkg.in/yaml.v3"
 
-	"github.com/ducesoft/sqlc/internal/config"
-	"github.com/ducesoft/sqlc/internal/debug"
-	"github.com/ducesoft/sqlc/internal/info"
-	"github.com/ducesoft/sqlc/internal/opts"
-	"github.com/ducesoft/sqlc/internal/tracer"
+	"github.com/ZeyuRemtes/sqlc/internal/config"
+	"github.com/ZeyuRemtes/sqlc/internal/debug"
+	"github.com/ZeyuRemtes/sqlc/internal/info"
+	"github.com/ZeyuRemtes/sqlc/internal/opts"
+	"github.com/ZeyuRemtes/sqlc/internal/tracer"
 )
 
 func init() {

@@ -5,7 +5,7 @@ import (
 	"unicode"
 	"unicode/utf8"
 
-	"github.com/ducesoft/sqlc/internal/plugin"
+	"github.com/ZeyuRemtes/sqlc/internal/plugin"
 )
 
 type Struct struct {

@@ -12,7 +12,7 @@
   "overrides": [
     {
     "column": "foo.mystr",
-    "go_type": "github.com/ducesoft/sqlc-testdata/mysql.ID"
+    "go_type": "github.com/ZeyuRemtes/sqlc-testdata/mysql.ID"
     }
   ]
 }

@@ -3,7 +3,7 @@ package main
 import (
 	"os"
 
-	"github.com/ducesoft/sqlc/internal/cmd"
+	"github.com/ZeyuRemtes/sqlc/internal/cmd"
 )
 
 func main() {

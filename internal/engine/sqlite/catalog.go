@@ -1,6 +1,6 @@
 package sqlite
 
-import "github.com/ducesoft/sqlc/internal/sql/catalog"
+import "github.com/ZeyuRemtes/sqlc/internal/sql/catalog"
 
 func NewCatalog() *catalog.Catalog {
 	def := "main"

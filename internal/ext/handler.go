@@ -3,7 +3,7 @@ package ext
 import (
 	"context"
 
-	"github.com/ducesoft/sqlc/internal/plugin"
+	"github.com/ZeyuRemtes/sqlc/internal/plugin"
 )
 
 type Handler interface {

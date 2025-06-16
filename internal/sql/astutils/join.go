@@ -3,7 +3,7 @@ package astutils
 import (
 	"strings"
 
-	"github.com/ducesoft/sqlc/internal/sql/ast"
+	"github.com/ZeyuRemtes/sqlc/internal/sql/ast"
 )
 
 func Join(list *ast.List, sep string) string {

@@ -8,7 +8,7 @@ import (
 	"fmt"
 	"reflect"
 
-	"github.com/ducesoft/sqlc/internal/sql/ast"
+	"github.com/ZeyuRemtes/sqlc/internal/sql/ast"
 )
 
 // An ApplyFunc is invoked by Apply for each node n, even if n is nil,

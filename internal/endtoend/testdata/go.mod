@@ -1,4 +1,4 @@
-module github.com/ducesoft/sqlc/endtoend
+module github.com/ZeyuRemtes/sqlc/endtoend
 
 go 1.18
 

@@ -5,7 +5,7 @@ import (
 	"io"
 	"os"
 
-	"github.com/ducesoft/sqlc/internal/bundler"
+	"github.com/ZeyuRemtes/sqlc/internal/bundler"
 )
 
 func createPkg(ctx context.Context, e Env, dir, filename string, stderr io.Writer) error {

@@ -3,11 +3,11 @@ package compiler
 import (
 	"fmt"
 
-	"github.com/ducesoft/sqlc/internal/config"
-	"github.com/ducesoft/sqlc/internal/engine/dolphin"
-	"github.com/ducesoft/sqlc/internal/engine/sqlite"
-	"github.com/ducesoft/sqlc/internal/opts"
-	"github.com/ducesoft/sqlc/internal/sql/catalog"
+	"github.com/ZeyuRemtes/sqlc/internal/config"
+	"github.com/ZeyuRemtes/sqlc/internal/engine/dolphin"
+	"github.com/ZeyuRemtes/sqlc/internal/engine/sqlite"
+	"github.com/ZeyuRemtes/sqlc/internal/opts"
+	"github.com/ZeyuRemtes/sqlc/internal/sql/catalog"
 )
 
 type Compiler struct {

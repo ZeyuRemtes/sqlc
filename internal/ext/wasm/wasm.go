@@ -21,8 +21,8 @@ import (
 	wasmtime "github.com/bytecodealliance/wasmtime-go/v8"
 	"golang.org/x/sync/singleflight"
 
-	"github.com/ducesoft/sqlc/internal/info"
-	"github.com/ducesoft/sqlc/internal/plugin"
+	"github.com/ZeyuRemtes/sqlc/internal/info"
+	"github.com/ZeyuRemtes/sqlc/internal/plugin"
 )
 
 // This version must be updated whenever the wasmtime-go dependency is updated
@@ -197,7 +197,7 @@ func (r *Runner) loadWASM(ctx context.Context, cache string, expected string) ([
 // removePGCatalog removes the pg_catalog schema from the request. There is a
 // mysterious (reason unknown) bug with wasm plugins when a large amount of
 // tables (like there are in the catalog) are sent.
-// @see https://github.com/ducesoft/sqlc/pull/1748
+// @see https://github.com/ZeyuRemtes/sqlc/pull/1748
 func removePGCatalog(req *plugin.CodeGenRequest) {
 	if req.Catalog == nil || req.Catalog.Schemas == nil {
 		return

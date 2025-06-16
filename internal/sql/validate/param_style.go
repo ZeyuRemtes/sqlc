@@ -1,10 +1,10 @@
 package validate
 
 import (
-	"github.com/ducesoft/sqlc/internal/sql/ast"
-	"github.com/ducesoft/sqlc/internal/sql/astutils"
-	"github.com/ducesoft/sqlc/internal/sql/named"
-	"github.com/ducesoft/sqlc/internal/sql/sqlerr"
+	"github.com/ZeyuRemtes/sqlc/internal/sql/ast"
+	"github.com/ZeyuRemtes/sqlc/internal/sql/astutils"
+	"github.com/ZeyuRemtes/sqlc/internal/sql/named"
+	"github.com/ZeyuRemtes/sqlc/internal/sql/sqlerr"
 )
 
 // A query can use one (and only one) of the following formats:

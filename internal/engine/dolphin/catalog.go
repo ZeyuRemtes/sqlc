@@ -1,7 +1,7 @@
 package dolphin
 
 import (
-	"github.com/ducesoft/sqlc/internal/sql/catalog"
+	"github.com/ZeyuRemtes/sqlc/internal/sql/catalog"
 )
 
 func NewCatalog() *catalog.Catalog {
